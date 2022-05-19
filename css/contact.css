@@ -1,0 +1,77 @@
+.contact-header-text h2{
+    font-weight: bold;
+    color: #3e3f95;
+}
+.contact-header-text p{
+    font-weight: 500;
+    color: #707070;
+}
+.contact{
+    padding: 1em 2em;
+    border-radius: 10px;
+    max-width: 70vw;
+    box-shadow: 1px 1px 5px 1px rgba(119, 136, 153, 0.288);
+    background-color: white;
+}
+.left{
+    border-radius: 10px;
+    padding-top: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 6em;
+    background-color: #3e3f95;
+    overflow: hidden;
+}
+.left p, .left h4{
+    color: white;
+}
+
+.row-left{
+    padding-top: 2em;
+}
+.right{
+    padding: 2em 3em;
+}
+label{
+    color: #3e3f95;
+    font-weight: 500;
+}
+
+.contact-header-text{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.shapes{
+    position: relative;
+}
+
+.bg-shape1{
+    width: 70px;
+    height: 70px;
+    background-color: #bef3f6;
+    border-radius: 35px;
+    position:absolute;
+    top: 20px;
+    left: -30px;
+    
+}
+.bg-shape2{
+    width: 150px;
+    height: 150px;
+    background-color: #f580a5;
+    border-radius: 75px;
+    right: -90px;
+    top: -10px;
+    position:absolute;
+}
+.form-control{
+    outline: 0;
+    border-width:0 0 1px;;
+    border-color: #756969;
+    border-radius: 0px;
+}
+.btn{
+    background-color: #3e3f95;
+    padding: 1em 2em;
+    border-radius: 5px;
+}

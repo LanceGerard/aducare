@@ -1,0 +1,52 @@
+body{
+    background-image: url("../img/donate-wavy.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -120px;
+}
+.donate{
+    max-width: 60%;
+    margin-top: 7em;
+}
+.col-md-4{
+    padding: 2em 2em;
+}
+.card{
+    padding: 2em 0;
+    border: none;
+    border-radius: 10px;
+    box-shadow:1px 1px 5px 1px rgba(119, 136, 153, 0.288);
+}
+.card-elements{
+    padding: 1em 2em;
+}
+.buy-to-support{
+    padding: 2em 2em;
+}
+.img-fluid{
+    max-width: 70%;
+}
+
+/* FOOTER FOR DONATE */
+
+.container-fluid.footer{
+    height: fit-content;
+    background: none;
+    margin-top: 50px;
+}
+.footer h6{
+   color: black;
+}
+.footer p{
+    color:#3e3f95;
+    font-size: 14px;
+}
+.support p:hover{
+    color: #f580a5;
+    font-weight: bold;
+    transition: ease 0.3s;
+}
+a{
+    color: #3e3f95;
+    text-decoration: none;
+}

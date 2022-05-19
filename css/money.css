@@ -1,0 +1,26 @@
+.money{
+    max-width: 60%;
+    padding: 4em 0 6em 0;
+}
+.btn{
+    padding: 1em 0 1em 0;
+    background-color: #3e3f95;
+}
+.col-lg-6{
+    padding: 4em 4em;
+}
+.master-card-logo{
+    max-width: 70%;
+    padding: 10px 10px;
+    border-radius:15px ;
+    border: none;
+    box-shadow: 1px 1px 5px 1px rgba(119, 136, 153, 0.288);
+    background-color: #ffffff;
+}   
+
+.next{
+    margin-top: 5em;
+}
+p{
+    color: #3e3f95;
+}

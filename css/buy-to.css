@@ -1,0 +1,36 @@
+.items {
+  padding: 1.5em 1.5em;
+  border: 2px solid #6b8eff;
+  border-radius: 15px;
+}
+
+.container.box {
+  max-width: 70vw;
+  padding: 2em;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.bg-lb {
+  background-color: #E0F0FA;
+}
+
+p {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #3e3f95;
+}
+
+label[for^="rdMask"] {
+  padding: 0.4em 3em;
+}

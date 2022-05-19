@@ -1,0 +1,40 @@
+
+.items{
+    background-color: rgb(241, 253, 253);
+    color: rgb(62,63, 149);
+}
+
+.order-summary {
+    background-color: rgb(190, 243, 246);
+    color: rgb(62,63, 149);
+}
+.order-summary button, #btnCO {
+    background-color: rgb(62,63, 149);
+    border:  none;
+}
+.order-summary button:hover{
+    background-color: rgb(91, 93, 187);
+}
+table * {
+    table-layout:fixed;
+    color: rgb(62,63, 149);
+}
+
+.shake {
+    animation: shake 0.6s;
+    animation-iteration-count: 1;
+}
+
+@keyframes shake {
+    0% { transform: translate(2px, 2px) rotate(0deg); }
+    10% { transform: translate(-2px, -3px) rotate(-3deg); }
+    20% { transform: translate(-4px, 1px) rotate(3deg); }
+    30% { transform: translate(4px, 3px) rotate(0deg); }
+    40% { transform: translate(2px, -2px) rotate(3deg); }
+    50% { transform: translate(-2px, 3px) rotate(-3deg); }
+    60% { transform: translate(-4px, 2px) rotate(0deg); }
+    70% { transform: translate(4px, 2px) rotate(-3deg); }
+    80% { transform: translate(-2px, -2px) rotate(3deg); }
+    90% { transform: translate(2px, 3px) rotate(0deg); }
+    100% { transform: translate(2px, -3px) rotate(-3deg); }
+  }

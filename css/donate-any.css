@@ -1,0 +1,70 @@
+body{
+    background-image: url("../img/donate-wavy-bg.svg");
+    background-position-y: 0;
+    background-position-x: 0;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.donate{
+    padding: 8em 0;
+}
+.icon{
+    height: 190px;
+    width: 300px;
+}
+.text{
+    height: 160px;
+    width: 300px;
+    padding: 2.5em 0;
+}
+.text a{
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+}
+.one{
+    background-color: #2A45D0;
+}
+.two{
+    background-color: #F8417B;
+}
+.card{
+    margin: 1em 2em;
+    border: none;
+    border-radius: 13px;
+    box-shadow: 1px 1px 5px 1px rgba(119, 136, 153, 0.288);
+}
+.icon{
+    padding: 2em 5em;
+}
+.icon img{
+    width: 130px;
+}
+
+.wavy{
+    z-index: 1;
+}
+
+/* FOOTER FOR DONATE */
+
+.container-fluid.footer{
+    height: fit-content;
+    background: none;
+    margin-top: 50px;
+}
+.footer h6{
+   color: black;
+}
+.footer p{
+    color:#3e3f95;
+    font-size: 14px;
+}
+.support p:hover{
+    color: #f580a5;
+    font-weight: bold;
+    transition: ease 0.3s;
+}
+a{
+    color: #3e3f95;
+    text-decoration: none;
+}
